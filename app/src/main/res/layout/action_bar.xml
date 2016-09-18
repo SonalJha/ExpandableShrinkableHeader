@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/view_time_activity_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/view_time_activity_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_time_activity_textView_padding_vertical"
+        android:clickable="true"
+        android:padding="@dimen/view_time_activity_textView_padding_vertical"
+        android:src="@drawable/ic_dtx_left_arrow" />
+
+    <ImageView
+        android:id="@+id/view_time_activity_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/view_time_activity_textView_padding_vertical"
+        android:layout_toLeftOf="@+id/view_time_activity_delete"
+        android:clickable="true"
+        android:padding="@dimen/view_time_activity_textView_padding_vertical"
+        android:src="@drawable/ic_actionbar_menu_edit" />
+
+    <ImageView
+        android:id="@+id/view_time_activity_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/view_time_activity_textView_padding_vertical"
+        android:clickable="true"
+        android:padding="@dimen/view_time_activity_textView_padding_vertical"
+        android:src="@drawable/ic_dtx_delete" />
+</RelativeLayout>
